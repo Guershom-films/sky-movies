@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="rw">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sky Movies</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background: #111;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav {
+      background: #222;
+      padding: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      margin: 5px 10px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      padding: 20px;
+    }
+    .search-box {
+      margin-bottom: 20px;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+    }
+    .movies {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    .movie {
+      background: white;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .movie img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .movie h3 {
+      font-size: 16px;
+    }
+    .movie a {
+      display: inline-block;
+      margin-right: 10px;
+      color: #0066cc;
+      text-decoration: none;
+    }
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🎬 Sky Movies</h1>
+  <p>Filime zisobanuye mu Kinyarwanda | Translated Movies</p>
+</header>
+
+<nav>
+  <a href="#">Action</a>
+  <a href="#">Horror</a>
+  <a href="#">Romantic</a>
+  <a href="#">Drama</a>
+  <a href="#">Comedy</a>
+  <a href="#">Indirimbo</a>
+</nav>
+
+<div class="container">
+  <div class="search-box">
+    <input type="text" placeholder="Shakisha filime / Search movie...">
+  </div>
+
+  <h2>🔥 Action Movies</h2>
+  <div class="movies">
+    <div class="movie">
+      <img src="https://via.placeholder.com/300x180" alt="Movie">
+      <h3>Izina rya Filime</h3>
+      <a href="#">▶ Reba</a>
+      <a href="#">⬇ Kuramo</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 Sky Movies | Rwanda</p>
+</footer>
+
+</body>
+</html>
